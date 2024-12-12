@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    max-width: 700px; 
+    max-width: 750px; 
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -13,12 +13,27 @@ body {
     box-shadow: 0 4px 8px #0000001a;
 }
 
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
 }
-
+.inpContainer{
+    max-width: 670px;
+    width: 100%;
+    margin: auto;
+    
+}
 .input-field {
     width: 100%;
     padding: 10px;
@@ -26,6 +41,7 @@ h1 {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    outline: none;
 }
 
 .btn {
